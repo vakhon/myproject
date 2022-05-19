@@ -1,0 +1,224 @@
+/* ----------------------------------Unimportant---------------------------------- */
+#prod1:hover {
+    box-shadow: 4px 1px 21px 8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 1px 21px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 1px 21px 8px rgba(0, 0, 0, 0.75);
+}
+
+#prod2:hover {
+    box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+}
+
+#prod3:hover {
+    box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+}
+
+#prod4:hover {
+    box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+}
+
+#prod5:hover {
+    box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+}
+
+#prod6:hover {
+    box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+}
+
+#prod7:hover {
+    box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+}
+
+#prod8:hover {
+    box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+}
+
+#prod9:hover {
+    box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+}
+
+#prod10:hover {
+    box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(0, 0, 0, 0.71);
+}
+
+/* ----------------------------------Unimportant---------------------------------- */
+html {
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+h1 {
+    color: #009dff;
+    font-weight: 500;
+}
+
+#ftProducts {
+    position: absolute;
+    bottom: 190px;
+    display: grid;
+    /* justify-content: center;
+    align-items:  center; */
+    /* text-align: justify; */
+    overflow: hidden;
+    width: 231px;
+
+}
+
+#ftProducts2 {
+    position: relative;
+    overflow: hidden;
+    right: 230px;
+    bottom: 270px;
+    pointer-events: none;
+}
+
+.Shop {
+    position: relative;
+    right: 230px;
+    bottom: 230px;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 2em;
+    grid-template-columns: repeat(4, 185px);
+    /* margin-left: 10rem; */
+    grid-auto-rows: minmax(10px, auto);
+    padding-top: 7em;
+}
+
+#prod1 {
+    position: relative;
+    height: 204.444px;
+}
+
+#prod {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#ShippingBanner {
+    display: inline;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fill img {
+    flex-shrink: 0;
+    min-width: 80%;
+    min-height: 100%;
+    position: relative;
+    padding: 20px;
+
+}
+
+#line {
+    width: 100%;
+    height: 1px;
+    position: relative;
+    top: 270px;
+    background: gray;
+}
+
+#lineup {
+    width: 100%;
+    height: 1px;
+    position: relative;
+    top: 20px;
+    background: gray;
+    z-index: 1000;
+}
+
+.search {
+    width: 130px;
+    height: 25px;
+    position: absolute;
+    top: 27px;
+    left: 39px;
+    background-color: #ababab;
+}
+
+@media (max-width: 83em) {
+    #ftProducts2 {
+        width: 0px;
+    }
+}
+
+@media (max-width: 75em) {
+    #fill {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+        position: relative;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 55em) {
+    #fill {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: 900px;
+        position: relative;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 60em) {
+    .grid-container {
+        grid-auto-flow: row;
+        gap: 2em;
+        grid-template-columns: repeat(3, 185px);
+    }
+}
+
+@media (max-width: 48em) {
+    .grid-container {
+        grid-auto-flow: row;
+        gap: 2em;
+        grid-template-columns: repeat(2, 185px);
+    }
+}

@@ -1,0 +1,124 @@
+html {
+    background-color: rgba(0, 0, 0, 0.89);
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    position: relative;
+    left: 538px;
+    width: 500px;
+    height: 64px;
+    bottom: 120px;   
+}
+select{
+    font-size: 1.5rem;
+    /* padding: 1em 10em 1em 1.5em; */
+    width: 500px;
+    height: 64px;
+    background: #4d5061;
+    color: white;
+    position: absolute;
+    left: 778px;
+    bottom: 335px;
+}
+#text-img{
+    padding-left: 15em;
+}
+.custom-select{
+    position: absolute;
+}
+.custom-select2{
+    position: relative;
+    top: 105px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+#line {
+    width: 100%;
+    height: 1px;
+    position: relative;
+    top: 270px;
+    background: gray;
+}
+#lineup {
+    width: 100%;
+    height: 1px;
+    position: relative;
+    top: 19px;
+    background: gray;;
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 80%;
+    min-height: 100%;
+    position: relative;
+    padding: 20px;
+
+}
+#hoodie{
+position: relative;
+top: 90px;
+padding-left: 2em;
+width: 450px;
+height: 450px;
+}
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+/* .Selector{
+position: relative;
+left: 100px;
+} */
+h1{
+    position: relative;
+    bottom: 390px;
+    left: 538px;
+    color: #009dff;
+    font-weight: 400;
+}
+.description{
+    color: gray;
+    position: relative;
+    bottom: 390px;
+    left: 518px;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+#price{
+    position: relative;
+    bottom: 400px;
+    left: 542px;
+    color: gray;
+}
+@media (max-width: 75em) {
+    #fill {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+        /* width: 1550px; */
+        position: relative;
+        padding: 20px;
+    }
+}
+@media (max-width: 55em) {
+    #fill {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: 900px;
+        position: relative;
+        padding: 20px;
+    }
+}
